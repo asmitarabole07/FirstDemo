@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GRID]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="grid_Execution_Tests.MultiBrowser">
+        <methods>
+          <include name="Login" invocation-numbers="2 0"/>
+        </methods>
+      </class> <!-- grid_Execution_Tests.MultiBrowser -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [GRID] -->

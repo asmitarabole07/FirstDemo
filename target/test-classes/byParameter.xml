@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GRID-parameter" parallel="tests">
+  
+  <test name="GoogleLogin-2">
+    <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="grid_Execution_Tests.Parallel_Execution_ByParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

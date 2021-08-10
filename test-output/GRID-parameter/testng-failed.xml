@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [GRID-parameter]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="GoogleLogin-2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="grid_Execution_Tests.Parallel_Execution_ByParameters">
+        <methods>
+          <include name="GoogleLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid_Execution_Tests.Parallel_Execution_ByParameters -->
+    </classes>
+  </test> <!-- GoogleLogin-2(failed) -->
+</suite> <!-- Failed suite [GRID-parameter] -->
